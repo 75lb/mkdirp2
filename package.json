@@ -13,7 +13,7 @@
     "test": "tap test/*.js"
   },
   "devDependencies": {
-    "mock-fs": "^3.7.0",
+    "mock-fs": "^3.10.0",
     "tap": "^5.4.2"
   },
   "license": "MIT"
