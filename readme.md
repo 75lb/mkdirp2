@@ -7,3 +7,11 @@
 # mkdirp2
 
 A maintained fork of [mkdir](https://github.com/substack/node-mkdirp).
+
+Extended with a promise method:
+
+```js
+mkdirp.promise('/tmp/tmp2/file')
+  .then(() => console.log('Created'))
+  .catch(err => console.error(`Failed: ${err.message}`))
+```
