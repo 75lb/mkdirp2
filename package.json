@@ -8,7 +8,7 @@
     "mkdir",
     "directory"
   ],
-  "repository": "https://github.com/75lb/node-mkdirp",
+  "repository": "https://github.com/75lb/mkdirp2",
   "scripts": {
     "test": "tap test/*.js"
   },
