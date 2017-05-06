@@ -95,7 +95,7 @@ mkdirP.sync = function sync (p, opts, made) {
 }
 
 mkdirP.promise = function (p, opts) {
-  return new Promise((resolve, reject) => {
+  return new Promise(function (resolve, reject) {
     mkdirP(p, opts, function (err) {
       if (err) {
         reject(err)

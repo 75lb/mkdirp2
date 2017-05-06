@@ -8,10 +8,13 @@
 
 A maintained fork of [mkdir](https://github.com/substack/node-mkdirp).
 
-Extended with a promise method:
+## Differences
 
-```js
-mkdirp.promise('/tmp/tmp2/file')
-  .then(() => console.log('Created'))
-  .catch(err => console.error(`Failed: ${err.message}`))
-```
+1. Command-line executable removed, this fork is for Nodejs use only.
+2. Extended with a promise method:
+
+    ```js
+    mkdirp.promise('tmp/tmp2/file')
+      .then(() => console.log('Created'))
+      .catch(err => console.error(`Failed: ${err.message}`))
+    ```
