@@ -10,7 +10,7 @@ A maintained fork of [mkdir](https://github.com/substack/node-mkdirp).
 
 ## Differences
 
-1. Command-line executable removed, this fork is for Nodejs use only.
+1. Command-line executable and its dependencies removed, this fork is for Nodejs use only.
 2. Extended with a promise method:
 
     ```js
