@@ -36,13 +36,13 @@ function mkdirP (p, opts, f, made) {
         })
         break
 
-            // In the case of any other error, just see if there's a dir
-            // there already.  If so, then hooray!  If not, then something
-            // is borked.
+      // In the case of any other error, just see if there's a dir
+      // there already.  If so, then hooray!  If not, then something
+      // is borked.
       default:
         xfs.stat(p, function (er2, stat) {
-                    // if the stat fails, then that's super weird.
-                    // let the original error be the failure reason.
+          // if the stat fails, then that's super weird.
+          // let the original error be the failure reason.
           if (er2 || !stat.isDirectory()) cb(er, made)
           else cb(null, made)
         })
@@ -76,9 +76,9 @@ mkdirP.sync = function sync (p, opts, made) {
         sync(p, opts, made)
         break
 
-            // In the case of any other error, just see if there's a dir
-            // there already.  If so, then hooray!  If not, then something
-            // is borked.
+      // In the case of any other error, just see if there's a dir
+      // there already.  If so, then hooray!  If not, then something
+      // is borked.
       default:
         var stat
         try {
