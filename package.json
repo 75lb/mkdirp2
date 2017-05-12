@@ -1,7 +1,7 @@
 {
   "name": "mkdirp2",
   "description": "Recursively mkdir, like `mkdir -p`",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "author": "James Halliday <mail@substack.net> (http://substack.net)",
   "main": "index.js",
   "keywords": [
