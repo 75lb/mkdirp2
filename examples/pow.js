@@ -1,4 +1,4 @@
-var mkdirp = require('mkdirp')
+var mkdirp = require('../')
 
 mkdirp('/tmp/foo/bar/baz', function (err) {
   if (err) console.error(err)
