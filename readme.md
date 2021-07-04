@@ -4,6 +4,8 @@
 [![Dependency Status](https://david-dm.org/75lb/mkdirp2.svg)](https://david-dm.org/75lb/mkdirp2)
 [![js-standard-style](https://img.shields.io/badge/code%20style-standard-brightgreen.svg)](https://github.com/feross/standard)
 
+***DEPRECATED: Use Node.js [fs.mkdir](https://nodejs.org/dist/latest-v16.x/docs/api/fs.html#fs_fspromises_mkdir_path_options)***
+
 # mkdirp2
 
 A maintained fork of the stagnant [mkdirp](https://github.com/substack/node-mkdirp).
